@@ -1,3 +1,8 @@
+variable "profile" {
+  type    = string
+  default = "default"
+}
+
 variable "ami_id" {
   type        = string
   description = "AMI ID for EC2 Instance"
